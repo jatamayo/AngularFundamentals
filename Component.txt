@@ -1,0 +1,12 @@
+Que son los componentes en angular
+
+Los componentes son como etiquetas html nuevas que podemos inventarnos para realizar las funciones necesarias. Pueden ser cosas diversas desde una sección de navegación a un formulario.
+Los componentes son pequeñas partes lógicas de la aplicación, que van a estar representando a un trozo de la pantalla.
+
+Un componente es un bloque, que contiene un template, contiene estilos , contiene lógica.
+Un componente esta compuesto por un archivo .ts , uno html y uno css, también debemos declararlo en mgModule.
+
+De cada componente exportamos una clase, que esta clase luego se podrá importar a otros componentes.
+Una aplicación de angular esta compuesta por componentes.
+Los componentes son pequeñas partes lógicas de la aplicación, que van a estar representando a un trozo de la pantalla.
+Y es así como funciona angular, todo lo que aparece en la aplicación son componentes, que son pequeños trozos de pantalla las cuales van a estar controladas por una clase, que esa clase va a ser la que va a dar soporte al componente. La clase tendrá una serie de funcionalidades y la clase también tendrá una plantilla asociada que sera la que mostrara la información correspondiente.
